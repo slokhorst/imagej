@@ -357,23 +357,7 @@ Institute of Molecular Cell Biology and Genetics.</license.copyrightOwners>
 											<groupId>${project.groupId}</groupId>
 											<artifactId>imagej-launcher</artifactId>
 											<version>${imagej-launcher.version}</version>
-											<classifier>i386-Linux-gcc-executable</classifier>
-											<type>nar</type>
-											<outputDirectory>${project.build.directory}/</outputDirectory>
-										</artifactItem>
-										<artifactItem>
-											<groupId>${project.groupId}</groupId>
-											<artifactId>imagej-launcher</artifactId>
-											<version>${imagej-launcher.version}</version>
 											<classifier>amd64-Windows-gcc-executable</classifier>
-											<type>nar</type>
-											<outputDirectory>${project.build.directory}/</outputDirectory>
-										</artifactItem>
-										<artifactItem>
-											<groupId>${project.groupId}</groupId>
-											<artifactId>imagej-launcher</artifactId>
-											<version>${imagej-launcher.version}</version>
-											<classifier>x86-Windows-gcc-executable</classifier>
 											<type>nar</type>
 											<outputDirectory>${project.build.directory}/</outputDirectory>
 										</artifactItem>
